@@ -1,4 +1,4 @@
-# Pokefish
+# Pokesaur
 
 Revisiting an idea that I'd conjured up way back in 2020 and giving it a few polishes.
 
@@ -19,7 +19,8 @@ Main:
 
 Integrations:
 
-- Fishbase API
+- <strike>Fishbase API</strike>
+- [DinoAPI](https://github.com/darkmoonsk/dinoapi)
 
 ## Features / Roadmap
 
@@ -28,6 +29,8 @@ Integrations:
 - Important:
 
   - Fix existing API bug
+    - Found out that the reason for the failure is due to the API being [deprecated](https://discuss.ropensci.org/t/is-the-fishbase-api-still-operational-and-available-for-public-use/3169/1) for Web API use.
+  - Setup a development branch (git) and environment (netlify)
   - Introduce a back button to the landing page
 
 - Future/Nice to Have:
