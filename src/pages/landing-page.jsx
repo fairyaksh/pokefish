@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../logo.png";
-import title from "../title.png";
+import logo from "../../public/assets/logo.png";
+import title from "../../public/assets/title.png";
 
 const LandingPage = ({ setPage }) => {
   return (
